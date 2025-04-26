@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Portglint</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/pages.css">
+    <!-- Added Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Added Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Stay updated with the latest insights, trends, and news from Portglint's blog on SaaS, technology, and business innovation.">
+    <link rel="icon" href="/style/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">
+                    <span class="logo-text">Portglint</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/products.html" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="/blog.html" class="nav-link active">Blog</a></li>
+                <li class="nav-item"><a href="/careers.html" class="nav-link">Careers</a></li>
+                <li class="nav-item"><a href="/#contact" class="nav-link nav-cta">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Portglint Blog</h1>
+        <p class="tagline">Insights, trends, and stories from the world of SaaS and technology</p>
+    </header>
+
+    <section id="blog-featured">
+        <div class="featured-post">
+            <div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" alt="The Future of SaaS in 2025">
+            </div>
+            <div class="featured-content">
+                <div class="post-meta">
+                    <span class="post-category">Industry Trends</span>
+                    <span class="post-date">April 15, 2025</span>
+                </div>
+                <h2>The Future of SaaS in 2025: Trends to Watch</h2>
+                <p>As we move further into 2025, the SaaS landscape continues to evolve at a rapid pace. From AI-driven solutions to hyper-personalization, we explore the key trends shaping the future of software as a service.</p>
+                <a href="#" class="btn">Read Article</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog-content">
+        <div class="blog-container">
+            <div class="blog-main">
+                <div class="blog-filters">
+                    <div class="filter-group">
+                        <label>Filter by Category:</label>
+                        <select id="categoryFilter">
+                            <option value="all">All Categories</option>
+                            <option value="industry-trends">Industry Trends</option>
+                            <option value="product-updates">Product Updates</option>
+                            <option value="tech-insights">Tech Insights</option>
+                            <option value="company-news">Company News</option>
+                            <option value="tutorials">Tutorials</option>
+                        </select>
+                    </div>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search articles..." id="searchInput">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+
+                <div class="blog-grid">
+                    <div class="blog-card" data-category="tech-insights">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=600&q=80" alt="Building Scalable Architecture">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="post-meta">
+                                <span class="post-category">Tech Insights</span>
+                                <span class="post-date">April 10, 2025</span>
+                            </div>
+                            <h3>Building Scalable Architecture for Modern SaaS Applications</h3>
+                            <p>Learn the key principles and best practices for designing scalable, resilient architecture that can grow with your business needs.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card" data-category="product-updates">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="FlowDesk Update">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="post-meta">
+                                <span class="post-category">Product Updates</span>
+                                <span class="post-date">April 5, 2025</span>
+                            </div>
+                            <h3>Introducing FlowDesk 2.0: Reimagining Workflow Management</h3>
+                            <p>We're excited to announce the launch of FlowDesk 2.0, featuring a redesigned interface, advanced automation capabilities, and improved team collaboration tools.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card" data-category="tutorials">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" alt="DataPulse Tutorial">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="post-meta">
+                                <span class="post-category">Tutorials</span>
+                                <span class="post-date">March 28, 2025</span>
+                            </div>
+                            <h3>Getting Started with DataPulse: A Beginner's Guide</h3>
+                            <p>This step-by-step tutorial walks you through setting up your first DataPulse dashboard and creating insightful visualizations from your data.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card" data-category="company-news">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80" alt="New Office">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="post-meta">
+                                <span class="post-category">Company News</span>
+                                <span class="post-date">March 20, 2025</span>
+                            </div>
+                            <h3>Portglint Expands with New Office in Singapore</h3>
+                            <p>We're thrilled to announce the opening of our new Asia-Pacific headquarters in Singapore, strengthening our global presence and commitment to serving customers worldwide.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card" data-category="industry-trends">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=600&q=80" alt="AI in SaaS">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="post-meta">
+                                <span class="post-category">Industry Trends</span>
+                                <span class="post-date">March 15, 2025</span>
+                            </div>
+                            <h3>How AI is Transforming the SaaS Industry</h3>
+                            <p>Artificial intelligence is revolutionizing how SaaS products are built, deployed, and used. Discover the key ways AI is reshaping the industry landscape.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card" data-category="tech-insights">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=600&q=80" alt="Security Best Practices">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="post-meta">
+                                <span class="post-category">Tech Insights</span>
+                                <span class="post-date">March 8, 2025</span>
+                            </div>
+                            <h3>SaaS Security Best Practices for 2025</h3>
+                            <p>Security remains a top concern for SaaS providers and users alike. Learn the essential security practices every SaaS company should implement.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <span>...</span>
+                    <a href="#">10</a>
+                    <a href="#" class="next">Next <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3>Popular Posts</h3>
+                    <ul class="popular-posts">
+                        <li>
+                            <a href="#">
+                                <div class="post-thumb">
+                                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=100&q=80" alt="The Future of SaaS">
+                                </div>
+                                <div class="post-info">
+                                    <h4>The Future of SaaS in 2025: Trends to Watch</h4>
+                                    <span>April 15, 2025</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="post-thumb">
+                                    <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=100&q=80" alt="AI in SaaS">
+                                </div>
+                                <div class="post-info">
+                                    <h4>How AI is Transforming the SaaS Industry</h4>
+                                    <span>March 15, 2025</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="post-thumb">
+                                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=100&q=80" alt="FlowDesk Update">
+                                </div>
+                                <div class="post-info">
+                                    <h4>Introducing FlowDesk 2.0: Reimagining Workflow Management</h4>
+                                    <span>April 5, 2025</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#">Industry Trends <span>(12)</span></a></li>
+                        <li><a href="#">Product Updates <span>(8)</span></a></li>
+                        <li><a href="#">Tech Insights <span>(15)</span></a></li>
+                        <li><a href="#">Company News <span>(6)</span></a></li>
+                        <li><a href="#">Tutorials <span>(10)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p>Get the latest articles and insights delivered straight to your inbox.</p>
+                    <form class="sidebar-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Tags</h3>
+                    <div class="tag-cloud">
+                        <a href="#">SaaS</a>
+                        <a href="#">Technology</a>
+                        <a href="#">AI</a>
+                        <a href="#">Cloud</a>
+                        <a href="#">Innovation</a>
+                        <a href="#">Productivity</a>
+                        <a href="#">Security</a>
+                        <a href="#">Collaboration</a>
+                        <a href="#">Data</a>
+                        <a href="#">Analytics</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta-section">
+        <div class="cta-content">
+            <h2>Want to contribute to our blog?</h2>
+            <p>We're always looking for industry experts and thought leaders to share their insights with our community.</p>
+            <a href="#" class="btn">Become a Contributor</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Portglint</h3>
+                <p>A fresh, bold venture focused on creating powerful SaaS solutions for the modern world.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/careers.html">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Innovation Drive, Tech Valley</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@portglint.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest news and products.</p>
+                <form class="footer-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="highlight">🔥 We are just getting started — stay tuned for the future! 🔥</p>
+            <p>&copy; 2025 Portglint. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Sitemap</a>
+            </p>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="/script/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Blog filtering functionality
+            const categoryFilter = document.getElementById('categoryFilter');
+            const searchInput = document.getElementById('searchInput');
+            const blogCards = document.querySelectorAll('.blog-card');
+            
+            function filterBlogs() {
+                const category = categoryFilter.value;
+                const searchTerm = searchInput.value.toLowerCase();
+                
+                blogCards.forEach(card => {
+                    const cardCategory = card.getAttribute('data-category');
+                    const cardContent = card.textContent.toLowerCase();
+                    
+                    const categoryMatch = category === 'all' || cardCategory === category;
+                    const searchMatch = searchTerm === '' || cardContent.includes(searchTerm);
+                    
+                    if (categoryMatch && searchMatch) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+            
+            categoryFilter.addEventListener('change', filterBlogs);
+            
+            searchInput.addEventListener('input', filterBlogs);
+            
+            // Search button click
+            const searchButton = document.querySelector('.search-box button');
+            searchButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                filterBlogs();
+            });
+        });
+    </script>
+</body>
+
+</html>

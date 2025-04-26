@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Portglint</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/pages.css">
+    <!-- Added Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Added Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Explore Portglint's innovative SaaS products designed to streamline your business operations and boost productivity.">
+    <link rel="icon" href="/style/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">
+                    <span class="logo-text">Portglint</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/products.html" class="nav-link active">Products</a></li>
+                <li class="nav-item"><a href="/blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="/careers.html" class="nav-link">Careers</a></li>
+                <li class="nav-item"><a href="/#contact" class="nav-link nav-cta">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Our Products</h1>
+        <p class="tagline">Innovative SaaS solutions designed for the modern business</p>
+    </header>
+
+    <section id="product-overview">
+        <h2><span class="emoji">🔍</span> Product Overview</h2>
+        <p class="section-intro">At Portglint, we develop powerful, user-friendly SaaS solutions that help businesses streamline operations, enhance productivity, and drive growth. Our products are built with the latest technologies and designed with user experience at the forefront.</p>
+        
+        <div class="product-categories">
+            <div class="category-tab active" data-category="all">All Products</div>
+            <div class="category-tab" data-category="productivity">Productivity</div>
+            <div class="category-tab" data-category="analytics">Analytics</div>
+            <div class="category-tab" data-category="collaboration">Collaboration</div>
+        </div>
+    </section>
+
+    <section id="featured-products">
+        <div class="product-grid">
+            <div class="product-card" data-category="productivity">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="FlowDesk">
+                </div>
+                <div class="product-badge">New</div>
+                <h3>FlowDesk</h3>
+                <p class="product-tagline">Streamline your workflow management</p>
+                <p class="product-description">FlowDesk is an intuitive project management tool that helps teams track tasks, manage resources, and meet deadlines with ease.</p>
+                <div class="product-features">
+                    <span class="feature-tag">Task Management</span>
+                    <span class="feature-tag">Resource Allocation</span>
+                    <span class="feature-tag">Time Tracking</span>
+                </div>
+                <div class="product-cta">
+                    <a href="#" class="btn">Learn More</a>
+                    <a href="#" class="btn btn-secondary">Try Free</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="analytics">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="DataPulse">
+                </div>
+                <h3>DataPulse</h3>
+                <p class="product-tagline">Turn data into actionable insights</p>
+                <p class="product-description">DataPulse is a powerful analytics platform that helps businesses make data-driven decisions with interactive dashboards and real-time reporting.</p>
+                <div class="product-features">
+                    <span class="feature-tag">Data Visualization</span>
+                    <span class="feature-tag">Custom Reports</span>
+                    <span class="feature-tag">Predictive Analytics</span>
+                </div>
+                <div class="product-cta">
+                    <a href="#" class="btn">Learn More</a>
+                    <a href="#" class="btn btn-secondary">Try Free</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="collaboration">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="TeamSync">
+                </div>
+                <div class="product-badge">Popular</div>
+                <h3>TeamSync</h3>
+                <p class="product-tagline">Collaborate seamlessly, anywhere</p>
+                <p class="product-description">TeamSync is a collaboration platform that brings your team together with messaging, file sharing, and video conferencing in one unified space.</p>
+                <div class="product-features">
+                    <span class="feature-tag">Real-time Messaging</span>
+                    <span class="feature-tag">Document Collaboration</span>
+                    <span class="feature-tag">Video Meetings</span>
+                </div>
+                <div class="product-cta">
+                    <a href="#" class="btn">Learn More</a>
+                    <a href="#" class="btn btn-secondary">Try Free</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="productivity">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="TaskMaster">
+                </div>
+                <h3>TaskMaster</h3>
+                <p class="product-tagline">Personal productivity, perfected</p>
+                <p class="product-description">TaskMaster helps individuals organize their work, prioritize tasks, and achieve more with smart to-do lists and habit tracking.</p>
+                <div class="product-features">
+                    <span class="feature-tag">Smart Lists</span>
+                    <span class="feature-tag">Habit Tracking</span>
+                    <span class="feature-tag">Focus Timer</span>
+                </div>
+                <div class="product-cta">
+                    <a href="#" class="btn">Learn More</a>
+                    <a href="#" class="btn btn-secondary">Try Free</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-comparison">
+        <h2><span class="emoji">⚖️</span> Product Comparison</h2>
+        <p class="section-intro">Not sure which product is right for you? Compare our offerings to find the perfect fit for your needs.</p>
+        
+        <div class="comparison-table-container">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>FlowDesk</th>
+                        <th>DataPulse</th>
+                        <th>TeamSync</th>
+                        <th>TaskMaster</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Team Size</td>
+                        <td>Unlimited</td>
+                        <td>Up to 50</td>
+                        <td>Unlimited</td>
+                        <td>Individual</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud Storage</td>
+                        <td>100GB</td>
+                        <td>500GB</td>
+                        <td>1TB</td>
+                        <td>10GB</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile App</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>API Access</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>24/7 Support</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Starting Price</td>
+                        <td>$19/mo</td>
+                        <td>$29/mo</td>
+                        <td>$15/mo</td>
+                        <td>$9/mo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2><span class="emoji">💬</span> What Our Customers Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"FlowDesk has transformed how our team manages projects. The intuitive interface and powerful features have boosted our productivity by 30%."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="John Smith">
+                    <div class="author-info">
+                        <h4>John Smith</h4>
+                        <p>Project Manager, TechCorp</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"DataPulse gives us insights we never had before. We can now make data-driven decisions quickly and confidently."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Lisa Johnson">
+                    <div class="author-info">
+                        <h4>Lisa Johnson</h4>
+                        <p>Data Analyst, FinanceHub</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"TeamSync has been a game-changer for our remote team. It's like we're all in the same room, even though we're spread across three continents."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Michael Wong">
+                    <div class="author-info">
+                        <h4>Michael Wong</h4>
+                        <p>CEO, GlobalDesign</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2><span class="emoji">💰</span> Pricing Plans</h2>
+        <p class="section-intro">Transparent, flexible pricing to suit businesses of all sizes. All plans include a 14-day free trial.</p>
+        
+        <div class="pricing-toggle">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider round"></span>
+            </label>
+            <span>Annual <span class="save-badge">Save 20%</span></span>
+        </div>
+        
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Starter</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount monthly">19</span>
+                        <span class="amount annual" style="display:none">15</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p>Perfect for individuals and small teams</p>
+                </div>
+                <div class="pricing-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Up to 5 users</li>
+                        <li><i class="fas fa-check"></i> 20GB storage</li>
+                        <li><i class="fas fa-check"></i> Basic reporting</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                        <li class="disabled"><i class="fas fa-times"></i> API access</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Advanced security</li>
+                    </ul>
+                </div>
+                <div class="pricing-cta">
+                    <a href="#" class="btn">Start Free Trial</a>
+                </div>
+            </div>
+            
+            <div class="pricing-card popular">
+                <div class="popular-badge">Most Popular</div>
+                <div class="pricing-header">
+                    <h3>Professional</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount monthly">49</span>
+                        <span class="amount annual" style="display:none">39</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p>Ideal for growing businesses</p>
+                </div>
+                <div class="pricing-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Up to 20 users</li>
+                        <li><i class="fas fa-check"></i> 100GB storage</li>
+                        <li><i class="fas fa-check"></i> Advanced reporting</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                        <li><i class="fas fa-check"></i> API access</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Advanced security</li>
+                    </ul>
+                </div>
+                <div class="pricing-cta">
+                    <a href="#" class="btn">Start Free Trial</a>
+                </div>
+            </div>
+            
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Enterprise</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount monthly">99</span>
+                        <span class="amount annual" style="display:none">79</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p>For large organizations with advanced needs</p>
+                </div>
+                <div class="pricing-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Unlimited users</li>
+                        <li><i class="fas fa-check"></i> 1TB storage</li>
+                        <li><i class="fas fa-check"></i> Custom reporting</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                        <li><i class="fas fa-check"></i> API access</li>
+                        <li><i class="fas fa-check"></i> Advanced security</li>
+                    </ul>
+                </div>
+                <div class="pricing-cta">
+                    <a href="#" class="btn">Start Free Trial</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="enterprise-cta">
+            <h3>Need a custom solution?</h3>
+            <p>Contact our sales team for a tailored package that meets your specific requirements.</p>
+            <a href="/#contact" class="btn">Contact Sales</a>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2><span class="emoji">❓</span> Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I get started with Portglint products?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Getting started is easy! Simply click the "Try Free" button on any product page to begin your 14-day free trial. No credit card required. Our onboarding process will guide you through setting up your account and exploring key features.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I switch between plans?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, you can upgrade or downgrade your plan at any time. When upgrading, the new features will be immediately available. If you downgrade, the changes will take effect at the start of your next billing cycle.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is my data secure with Portglint?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely. Security is our top priority. We use industry-standard encryption, regular security audits, and strict access controls to protect your data. Our systems are compliant with major security standards including SOC 2 and GDPR.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you offer discounts for nonprofits or educational institutions?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, we offer special pricing for nonprofits, educational institutions, and startups. Please contact our sales team for more information about our discount programs.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What kind of support do you offer?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>We offer multiple support channels including email, live chat, and phone support depending on your plan. Our knowledge base and community forum are available to all users. Enterprise customers receive dedicated account management and 24/7 priority support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Portglint</h3>
+                <p>A fresh, bold venture focused on creating powerful SaaS solutions for the modern world.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/careers.html">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Innovation Drive, Tech Valley</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@portglint.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest news and products.</p>
+                <form class="footer-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="highlight">🔥 We are just getting started — stay tuned for the future! 🔥</p>
+            <p>&copy; 2025 Portglint. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Sitemap</a>
+            </p>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="/script/script.js"></script>
+    <script>
+        // Product category filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryTabs = document.querySelectorAll('.category-tab');
+            const productCards = document.querySelectorAll('.product-card');
+            
+            categoryTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    categoryTabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    const category = this.getAttribute('data-category');
+                    
+                    // Show/hide products based on category
+                    productCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Pricing toggle
+            const billingToggle = document.getElementById('billingToggle');
+            const monthlyPrices = document.querySelectorAll('.amount.monthly');
+            const annualPrices = document.querySelectorAll('.amount.annual');
+            
+            billingToggle.addEventListener('change', function() {
+                if (this.checked) {
+                    // Show annual prices
+                    monthlyPrices.forEach(price => price.style.display = 'none');
+                    annualPrices.forEach(price => price.style.display = 'inline');
+                } else {
+                    // Show monthly prices
+                    monthlyPrices.forEach(price => price.style.display = 'inline');
+                    annualPrices.forEach(price => price.style.display = 'none');
+                }
+            });
+            
+            // FAQ accordion
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-answer');
+                const toggle = item.querySelector('.faq-toggle');
+                
+                question.addEventListener('click', function() {
+                    // Close all other answers
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.querySelector('.faq-answer').style.display = 'none';
+                            otherItem.querySelector('.faq-toggle i').className = 'fas fa-plus';
+                        }
+                    });
+                    
+                    // Toggle current answer
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                        toggle.innerHTML = '<i class="fas fa-plus"></i>';
+                    } else {
+                        answer.style.display = 'block';
+                        toggle.innerHTML = '<i class="fas fa-minus"></i>';
+                    }
+                });
+            });
+            
+            // Testimonial slider
+            const testimonials = document.querySelectorAll('.testimonial');
+            const dots = document.querySelectorAll('.dot');
+            const prevBtn = document.querySelector('.testimonial-prev');
+            const nextBtn = document.querySelector('.testimonial-next');
+            let currentSlide = 0;
+            
+            function showSlide(n) {
+                testimonials.forEach(testimonial => testimonial.style.display = 'none');
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                testimonials[n].style.display = 'block';
+                dots[n].classList.add('active');
+                currentSlide = n;
+            }
+            
+            // Initialize slider
+            showSlide(0);
+            
+            // Next/previous controls
+            prevBtn.addEventListener('click', function() {
+                showSlide(currentSlide > 0 ? currentSlide - 1 : testimonials.length - 1);
+            });
+            
+            nextBtn.addEventListener('click', function() {
+                showSlide(currentSlide < testimonials.length - 1 ? currentSlide + 1 : 0);
+            });
+            
+            // Dot controls
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', function() {
+                    showSlide(index);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

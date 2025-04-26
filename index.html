@@ -10,17 +10,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Added Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-
-    </style>
+    <meta name="description" content="Portglint - A fresh, bold venture focused on creating powerful SaaS solutions for the modern world.">
+    <meta name="keywords" content="SaaS, Software, Technology, Innovation, InfoTech, Cloud Solutions">
+    <link rel="icon" href="/style/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">
+                    <span class="logo-text">Portglint</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/products.html" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="/blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="/careers.html" class="nav-link">Careers</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link nav-cta">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <header>
         <h1>Portglint</h1>
         <p class="tagline">A fresh, bold venture focused on creating powerful SaaS solutions</p>
         <div class="header-cta">
             <button id="learn-more-btn" class="btn">Learn More</button>
+            <button id="products-btn" class="btn btn-secondary" onclick="window.location.href='/products.html'">Our Products</button>
         </div>
     </header>
 
@@ -176,8 +198,53 @@
     </div>
 
     <footer>
-        <p class="highlight">🔥 We are just getting started — stay tuned for the future! 🔥</p>
-        <p>&copy; 2025 Portglint. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Portglint</h3>
+                <p>A fresh, bold venture focused on creating powerful SaaS solutions for the modern world.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/careers.html">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Innovation Drive, Tech Valley</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@portglint.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest news and products.</p>
+                <form class="footer-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="highlight">🔥 We are just getting started — stay tuned for the future! 🔥</p>
+            <p>&copy; 2025 Portglint. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Sitemap</a>
+            </p>
+        </div>
     </footer>
 
     <script src="/script/script.js"></script>

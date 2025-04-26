@@ -1,5 +1,32 @@
 // Scroll animations
 document.addEventListener('DOMContentLoaded', function () {
+    // Navigation menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.querySelector('.nav-menu');
+    const navbar = document.querySelector('.navbar');
+    
+    navToggle.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+            navMenu.classList.remove('active');
+            navToggle.classList.remove('active');
+        }
+    });
+    
+    // Change navbar background on scroll
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+    
     // Animate sections on scroll
     const sections = document.querySelectorAll('section');
     const scrollToTop = document.querySelector('.scroll-to-top');
